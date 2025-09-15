@@ -41,12 +41,12 @@ yolo和sam环境友好。配置相对简单
 
    （注意没有//，只是#这个注释符在md中被占用了）
    
-// train: /data/lmy/custom_yolo_data/shoes/train.txt
-// val: /data/lmy/custom_yolo_data/shoes/val.txt
-// test: /data/lmy/custom_yolo_data/shoes/test.txt
+train: /data/lmy/custom_yolo_data/shoes/train.txt
+val: /data/lmy/custom_yolo_data/shoes/val.txt
+test: /data/lmy/custom_yolo_data/shoes/test.txt
 
-// # number of classes
-// nc: 1
+# number of classes
+nc: 1
 
 // # class names
 // names: ['nail']
