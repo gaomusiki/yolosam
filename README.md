@@ -22,15 +22,25 @@ yolo和sam环境友好。配置相对简单
 # 数据集
 默认你有如下格式的文件夹
 -custom_yolo_dataset
+
 ---shoes
+
 -----origin
+
 -----annotations
+
 -----images
+
 -----ImageSets
+
 -----labels
+
 ---json2xml.py
+
 ---splitdataset.py
+
 ---xml2txt.py
+
 1. 使用labelme标注，得到 x.jpg 以及对应的 x.json，将他们放在origin内，如果本身有xml格式标注请跳到4
 2. 笔者提供的三个tool文件：json2xml.py(yolo训练要xml格式)，splitdataset.py(自动划分训练集、测试集)，xml2txt.py
 3. 执行python json2xml.py，记得修改其中的12，13行，如果你不是jpg格式，请修改23行，其他内容不重要，可以不修改
