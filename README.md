@@ -39,7 +39,7 @@ yolo和sam环境友好。配置相对简单
 6. 在./custom_yolo_dataset下编写一个shoes.yaml文件，大致如下，路径记得修改，一定用绝对路径！！！，nc和names如果你做别的目标识别，也请记得修改
    笔者会提供给shoes.yaml，你可以只修改其中三个路径
 
-（注意没有//，只是#这个注释符在md中被占用了）
+（注意没有//，只是#这个注释符在md中被占用了）下面是一个yaml的模板
    
 train: /data/lmy/custom_yolo_data/shoes/train.txt
 
@@ -50,6 +50,7 @@ test: /data/lmy/custom_yolo_data/shoes/test.txt
 nc: 1
 
 // # class names
+
 names: ['nail']
 
 7. 现在万事俱备，请你回到第二部分去trian
