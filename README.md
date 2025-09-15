@@ -37,7 +37,10 @@ yolo和sam环境友好。配置相对简单
 4. 执行python splitdataset.py，修改第6，16，17，18，19行路径
 5. 执行python xml2txt.py,路径涉及比较多，记得都检查一遍
 6. 在./custom_yolo_dataset下编写一个shoes.yaml文件，大致如下，路径记得修改，一定用绝对路径！！！，nc和names如果你做别的目标识别，也请记得修改
-   笔者会提供给shoes.yaml，你可以只修改其中三个路径（注意没有//，只是#这个注释符在md中被占用了）
+   笔者会提供给shoes.yaml，你可以只修改其中三个路径
+
+   （注意没有//，只是#这个注释符在md中被占用了）
+   
 // train: /data/lmy/custom_yolo_data/shoes/train.txt
 // val: /data/lmy/custom_yolo_data/shoes/val.txt
 // test: /data/lmy/custom_yolo_data/shoes/test.txt
